@@ -37,7 +37,8 @@ namespace SceneNavigator
         }
 
 #if UNITY_EDITOR
-        internal List<Entry> EditorEntries => entries;
+        /// <summary>Editor-only mutable view of catalog entries. Used by SceneCatalogScanner.</summary>
+        public List<Entry> EditorEntries => entries;
 #endif
     }
 }

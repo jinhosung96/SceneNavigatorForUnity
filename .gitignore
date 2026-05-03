@@ -35,3 +35,9 @@ sysinfo.txt
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Headless test artifacts
+*-results.xml
+unity-compile.log
+editmode.log
+playmode.log
