@@ -423,10 +423,10 @@ namespace SceneNavigator
             var reuseSet = new HashSet<Type>();
 
             // current sub types
-            var currentSubs = _byType.Values
-                .Where(d => d.Kind == SceneNodeKind.Sub && d.IsAlive)
-                .Select(d => d.NodeType)
-                .ToHashSet();
+            var currentSubs = new HashSet<Type>(
+                _byType.Values
+                    .Where(d => d.Kind == SceneNodeKind.Sub && d.IsAlive)
+                    .Select(d => d.NodeType));
 
             // target sub types
             var targetSubs = new HashSet<Type>();

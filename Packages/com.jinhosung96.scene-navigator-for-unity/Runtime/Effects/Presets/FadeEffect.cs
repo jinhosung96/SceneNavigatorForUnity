@@ -119,7 +119,7 @@ namespace SceneNavigator
                     var a = Mathf.Lerp(fromAlpha, toAlpha, t);
                     image.color = new Color(color.r, color.g, color.b, a);
 #if UNITASK_SUPPORT
-                    await UniTask.Yield(PlayerLoopTiming.Update, ctx.Cancellation, cancelImmediately: false);
+                    await UniTask.Yield(PlayerLoopTiming.Update, ctx.Cancellation);
 #else
                     await Task.Yield();
 #endif
