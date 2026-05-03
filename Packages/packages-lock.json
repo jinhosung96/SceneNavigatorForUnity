@@ -33,6 +33,15 @@
       "dependencies": {},
       "hash": "acc1c7bc9ea34c33b830e40316fca52553878d29"
     },
+    "com.jinhosung96.scene-navigator-for-unity": {
+      "version": "file:com.jinhosung96.scene-navigator-for-unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.cysharp.r3": "1.0.0",
+        "com.cysharp.unitask": "2.5.0"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "7.1.0",
       "depth": 1,
@@ -258,13 +267,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "jp.hadashikick.vcontainer": {
-      "version": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "634ddf1ee4476676a23b759c5d932f10e4a7e122"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
