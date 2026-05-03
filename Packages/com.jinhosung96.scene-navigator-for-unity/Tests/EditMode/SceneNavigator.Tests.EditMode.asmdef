@@ -1,0 +1,38 @@
+{
+  "name": "SceneNavigator.Tests.EditMode",
+  "rootNamespace": "SceneNavigator.Tests",
+  "references": [
+    "SceneNavigator.Runtime",
+    "SceneNavigator.Editor",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "R3",
+    "UniTask"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.r3",
+      "expression": "1.0.0",
+      "define": "R3_SUPPORT"
+    },
+    {
+      "name": "com.cysharp.unitask",
+      "expression": "2.0.0",
+      "define": "UNITASK_SUPPORT"
+    }
+  ],
+  "noEngineReferences": false
+}

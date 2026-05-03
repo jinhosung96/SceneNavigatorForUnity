@@ -1,0 +1,32 @@
+{
+  "name": "com.jinhosung96.scene-navigator-for-unity",
+  "version": "0.1.0",
+  "displayName": "Scene Navigator",
+  "description": "Multi-scene management framework for Unity. Classifies scenes into Base / Main / Sub / Instance, provides type-based async transition API (Transition / Back / Reload / Load / Unload), Main transition history, R3-based lifecycle events, and pluggable transition effects.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.cysharp.r3": "1.0.0",
+    "com.cysharp.unitask": "2.5.0"
+  },
+  "samples": [
+    {
+      "displayName": "Minimal",
+      "description": "Two Mains + a shared Sub + an Instance scene. Smallest end-to-end demo.",
+      "path": "Samples~/Minimal"
+    }
+  ],
+  "keywords": [
+    "scene",
+    "navigation",
+    "multi-scene",
+    "uniTask",
+    "r3",
+    "framework"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Hosung Jin",
+    "email": "jinhosung96@naver.com",
+    "url": "https://github.com/jinhosung96"
+  }
+}

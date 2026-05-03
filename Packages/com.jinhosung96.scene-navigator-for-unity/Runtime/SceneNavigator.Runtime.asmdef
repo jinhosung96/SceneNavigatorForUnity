@@ -1,0 +1,28 @@
+{
+  "name": "SceneNavigator.Runtime",
+  "rootNamespace": "SceneNavigator",
+  "references": [
+    "R3",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.r3",
+      "expression": "1.0.0",
+      "define": "R3_SUPPORT"
+    },
+    {
+      "name": "com.cysharp.unitask",
+      "expression": "2.0.0",
+      "define": "UNITASK_SUPPORT"
+    }
+  ],
+  "noEngineReferences": false
+}
